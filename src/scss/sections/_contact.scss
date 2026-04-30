@@ -1,0 +1,78 @@
+/**
+ * Contact section
+ *
+ * Keeps form presentation clean, approachable,
+ * and consistent with the wider component system.
+ */
+
+.contact {
+  padding: 6rem 0;
+  background: #f8fafc;
+}
+
+.contact-message {
+  max-width: 760px;
+  margin: 0 auto 1.5rem;
+  padding: 1rem 1.25rem;
+  border-radius: 14px;
+  font-weight: 500;
+
+  &--success {
+    color: #166534;
+    background: #dcfce7;
+    border: 1px solid #bbf7d0;
+  }
+
+  &--error {
+    color: #991b1b;
+    background: #fee2e2;
+    border: 1px solid #fecaca;
+  }
+}
+
+.contact-form {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 24px;
+  background: #ffffff;
+  box-shadow: var(--shadow-soft);
+
+  &__field {
+    margin-bottom: 1.5rem;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 0.65rem;
+    color: var(--color-heading);
+    font-weight: 600;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 1rem 1.1rem;
+    border: 1px solid var(--color-border);
+    border-radius: 14px;
+    font: inherit;
+    color: var(--color-text);
+    background: #ffffff;
+    transition: border-color var(--transition-base);
+
+    &:focus {
+      outline: none;
+      border-color: var(--color-accent);
+    }
+  }
+
+  textarea {
+    resize: vertical;
+    min-height: 160px;
+  }
+
+  button {
+    width: 100%;
+    justify-content: center;
+  }
+}

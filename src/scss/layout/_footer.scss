@@ -1,0 +1,58 @@
+/**
+ * Footer
+ */
+
+.site-footer {
+  padding: 4rem 0 2rem;
+  color: #fff;
+  background: #0f172a;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  &__grid {
+    display: grid;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  &__brand {
+    a {
+      display: inline-block;
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+
+    p {
+      max-width: 420px;
+      color: rgba(255,255,255,.8);
+    }
+  }
+
+  &__nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 1.5rem;
+    align-items: center;
+  }
+
+  &__bottom {
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255,255,255,.1);
+
+    p {
+      margin: 0;
+      color: rgba(255,255,255,.7);
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .site-footer__grid {
+    grid-template-columns: 1fr auto;
+    align-items: center;
+  }
+}
