@@ -1,19 +1,8 @@
-# Avantis Landing Theme (WordPress + Vite)
+# Avantis Technical Task (WordPress + Vite)
 
 ## Overview
 
 This project is a custom-built WordPress landing page theme developed for an educational platform concept. It focuses on modern frontend architecture, modular PHP structure, and plugin-free functionality where possible.
-
-The theme demonstrates:
-
-- WordPress theme development best practices  
-- Modular template architecture using `get_template_part()`  
-- Custom Post Type implementation (Testimonials)  
-- Native WordPress form handling (plugin-free contact form)  
-- SCSS-based styling architecture  
-- Vite-based asset bundling and build pipeline  
-- Vanilla JavaScript interactions  
-
 ---
 
 ## Features
@@ -68,6 +57,9 @@ Ensure you have the following installed:
 
 Place the theme folder inside:
 
+```bash
+wp-content/themes/avantis-landing
+```
 ---
 
 ### 2. Install dependencies
